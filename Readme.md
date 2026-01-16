@@ -29,18 +29,20 @@ A modern React+Vite web application to explore , manage, filter products with a 
   git clone https://github.com/riya23dhim/ProductExplorer.git
   cd ProductExplorer
   ```
-  - Install Dependencies
-    ```
-    npm install
+- Install DependencieS
+   
+  ```
+  npm install
   ```
 - Create a .env file in the Project Root folder and update it with environment variables like
+
   ```
   VITE_STORAGE_KEY="your_key"
   VITE_INITIAL_URL="your_api_url"
   ```
   Storage key can be any straing to store data in local storage where as initial Url is your server api url.
- - Start Development Server
-    ```
+- Start Development Server
+  ```
     npm run dev
-    ```
- -The app is running at http://localhost:5173
+  ```
+ - The app is running at http://localhost:5173
