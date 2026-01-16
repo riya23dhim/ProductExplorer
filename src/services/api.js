@@ -1,7 +1,8 @@
 import {defer} from "react-router-dom";
 
-const STORAGE_KEY="dummy_data_products";
-const INITIAL_URL="https://dummyjson.com/products";
+const STORAGE_KEY=import.meta.env.VITE_STORAGE_KEY
+const INITIAL_URL=import.meta.env.VITE_INITIAL_URL
+
 //FUNCTION TO ADD DATA IN LOCAL STOARGE
 const setLocalData=(data)=>{
     localStorage.setItem(STORAGE_KEY,JSON.stringify(data))

@@ -123,7 +123,7 @@ const handlerefresh=()=>{
     <div className=' rounded-xl border border-gray-200 shadow-sm  mt-4 overflow-hidden '>
      
       <div className='overflow-x-auto '>
-        <table className='w-full text-left '>
+        <table className='w-full text-left border-collapse'>
           <thead >
             <tr className='border-b border-gray-200 bg-white/40'>
               <th className='px-6 py-7 text-sm text-gray-700 font-semibold'>
@@ -253,12 +253,13 @@ const handlerefresh=()=>{
              </tr>}
           </tbody>
         </table>
-        {/* foot */}
-        <div className='px-6 py-3 tracking-wider text-xs border-t border-gray-200 text-gray-500 font-medium bg-white/20 flex justify-between'>
+        
+      </div>
+      {/* foot */}
+      <div className='px-6 py-3    tracking-wider text-xs  border-t border-gray-200 text-gray-500 font-medium bg-white/20 flex justify-between'>
           <span> TOTAL PRODUCTS :{products.length}</span>
           <span>PRODUCTS SHOWING :{filteredproducts.length}</span>
         </div>
-      </div>
     </div>
     </>
   )
