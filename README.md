@@ -1,16 +1,49 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Product Explorer
 
-Currently, two official plugins are available:
+A modern React+Vite web application to explore , manage, filter products with a clean UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Live Demo : https://product-explorer-rose.vercel.app/
+### Features
+- Advanced Filtering (Filter by Title, Brand, Category, Price, Rating)
+- Active filters highlighted
+- Editable titles
+- Deletable Rows
+- Skeleton Loaders
+- UseMemo for optimization
+- Error Handeling
+- Responsive
+  
+### Tech Stack
+- React Vite
+- Tailwind css
+- Routing React Router
+- React Icons
+- Deployment Vercel
+- React hooks
+- Suspense + defer
+- Canva->logo,images
 
-## React Compiler
+### Installation and Setup
+- Clone Github Repo
+  ```
+  git clone https://github.com/riya23dhim/ProductExplorer.git
+  cd ProductExplorer
+  ```
+- Install DependencieS
+   
+  ```
+  npm install
+  ```
+- Create a .env file in the Project Root folder and update it with environment variables like
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  ```
+  VITE_STORAGE_KEY="your_key"
+  VITE_INITIAL_URL="your_api_url"
+  ```
+  Storage key can be any straing to store data in local storage where as initial Url is your server api url.
+- Start Development Server
+  ```
+    npm run dev
+  ```
+ - The app is running at http://localhost:5173
