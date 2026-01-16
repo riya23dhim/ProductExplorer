@@ -1,8 +1,8 @@
-Product Explorer
+# Product Explorer
 
-A modern React + Vite web application to explore, filter, and manage products with a clean UI, fast performance, and production‑ready architecture.
+A modern React+Vite web application to explore , manage, filter products with a clean UI.
 
-### Live Demo 
+### Live Demo : https://product-explorer-rose.vercel.app/
 ### Features
 - Advanced Filtering (Filter by Title, Brand, Category, Price, Rating)
 - Active filters highlighted
